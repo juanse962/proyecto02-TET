@@ -1,6 +1,6 @@
 # Partición
 
-![tareas](https://user-images.githubusercontent.com/11285528/95275459-2946c400-080e-11eb-9887-b1a1870c598b.png)
+![Partición - copia](https://user-images.githubusercontent.com/11285528/95658613-61395a00-0ae1-11eb-9e34-6dab9bb38a5f.jpg)
 
 # Grafo de partición 
 
