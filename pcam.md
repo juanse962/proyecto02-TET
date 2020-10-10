@@ -1,4 +1,4 @@
-# Tareas
+# Partición
 
 ![tareas](https://user-images.githubusercontent.com/11285528/95275459-2946c400-080e-11eb-9887-b1a1870c598b.png)
 
