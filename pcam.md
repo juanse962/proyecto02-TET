@@ -4,8 +4,8 @@
 Se selecionaron las tareas para cada una de las etapas del algoritmo.
 
 # Grafo de partición 
-
-![grafo partición](https://user-images.githubusercontent.com/11285528/95275518-4d0a0a00-080e-11eb-883c-31f5ecefc0c7.PNG)
+![Grafo de particionamiento](https://user-images.githubusercontent.com/11285528/95659428-9f854800-0ae6-11eb-877d-a4599492e8d0.png)
+Agregamos el grafo de particionamiento de datos especificando que realiza en cada una de las táreas.
 
 ![grafo-completo de particionamiento](https://user-images.githubusercontent.com/11285528/95275565-6d39c900-080e-11eb-94f2-40c4aab5bf74.PNG)
 
