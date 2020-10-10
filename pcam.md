@@ -1,6 +1,6 @@
 # Partición
 
-![Partición - copia](https://user-images.githubusercontent.com/11285528/95658613-61395a00-0ae1-11eb-9e34-6dab9bb38a5f.jpg)
+![Partición](https://user-images.githubusercontent.com/11285528/95659059-40263880-0ae4-11eb-964d-54440f6da44a.jpg)
 Se selecionaron las tareas para cada una de las etapas del algoritmo.
 
 # Grafo de partición 
