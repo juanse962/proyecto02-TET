@@ -2,7 +2,7 @@
 
 ![Partición](https://user-images.githubusercontent.com/11285528/95659059-40263880-0ae4-11eb-964d-54440f6da44a.jpg)
 
-Se selecionaron las tareas para cada una de las etapas del algoritmo.
+Se selecionaron las tareas para cada una de las etapas del algoritmo, T0 Y T0' prima representan datos de carga los cuales estaran en NFS.
 
 # Grafo de partición 
 ![Grafo de particionamiento](https://user-images.githubusercontent.com/11285528/95659428-9f854800-0ae6-11eb-877d-a4599492e8d0.png)
