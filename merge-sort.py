@@ -14,6 +14,8 @@ def main():
         N = int(sys.argv[1])
 
     #Genera aleatoriamente el numero de N
+    #Lista para ordenamientos mas pequeños se debe descomentar el print de abajo para verla.
+    #lystbck = [1,3,4,2,9,7,6,8]
     lystbck = [random.random() for x in range(N)]
 
     #Merge-sort secuencial:
