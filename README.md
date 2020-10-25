@@ -13,5 +13,9 @@ Rednimiento para un arreglo con 500000 elementos
 Rendimiento para un arreglo de 10 elementos
 ![Captura](https://user-images.githubusercontent.com/11285528/97112561-f5471c00-16b2-11eb-9a40-16261e318a62.PNG)
 
+**Sustentación**
+*José Miguel*
+https://drive.google.com/file/d/1H9RmmdhPFvhWhlQZKFLJXfEyeqi9NMeo/view?usp=sharing
+
 **Conclusión**
 Podemos observar que algoritmo más eficiente depende es del numero de elementos que se deseen ordenar y no existe uno que sea mejor que otro en todo los casos
