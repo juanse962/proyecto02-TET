@@ -10,7 +10,7 @@ def main():
     -tiempo de ordenamiento paralelo.
     """
     N = 500000
-    if len(sys.argv) > 1: 
+    if len(sys.argv) > 1: #el usuario ingresa un tamaño de lista.
         N = int(sys.argv[1])
 
     #Genera aleatoriamente el numero de N
@@ -22,7 +22,6 @@ def main():
     lyst = list(lystbck)
     start = time.time()             #Tiempo de inicio
     lyst = mergesort(lyst)
-    #print(lyst)
     elapsed = time.time() - start   #Tiempo de fin
 
     if not isSorted(lyst):
@@ -30,8 +29,8 @@ def main():
     
     print('Sequential mergesort: %f sec' % (elapsed))
 
+    #Aquí que el uso de la CPU muestra una pausa.
     time.sleep(3)
-
 
     #Merge-sort paralelo 
     lyst = list(lystbck)
@@ -82,7 +81,8 @@ def merge(left, right):
 
 def mergesort(lyst):
     """
-    Realiza la particion de la lsita
+    Realiza la particion de la lista, devuelve una copia de la lista mas no
+    la modifica
     """
     if len(lyst) <= 1:
         return lyst
@@ -93,8 +93,7 @@ def mergesort(lyst):
 def mergeSortParallel(lyst, conn, procNum):
     """mergSortParallel recive una lista conectado por la pipe de arriba."""
 
-    #Base case, this process is a leaf or the problem is
-    #very small.
+    #Caso base, aquí mostramos un problema pequeño
     if procNum <= 0 or len(lyst) <= 1:
         conn.send(mergesort(lyst))
         conn.close()
@@ -102,6 +101,8 @@ def mergeSortParallel(lyst, conn, procNum):
 
     ind = len(lyst)//2
 
+    #creacion de procesos para ordenar las mitades de izquierda
+    #y derecha de la lsita
 
     pconnLeft, cconnLeft = Pipe()
     leftProc = Process(target=mergeSortParallel, \
@@ -117,7 +118,7 @@ def mergeSortParallel(lyst, conn, procNum):
     conn.send(merge(pconnLeft.recv(), pconnRight.recv()))
     conn.close()
 
-    #Join the left and right processes.
+    #Join al proceso izquierdo y derecho.
     leftProc.join()
     rightProc.join()
 
