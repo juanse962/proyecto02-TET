@@ -7,7 +7,7 @@ pyhton version: 3.9.0
 $ python merge-sort.py
 ```
 
-Rednimiento para un arreglo con 5000 elementos
+Rednimiento para un arreglo con 500000 elementos
 ![Captura](https://user-images.githubusercontent.com/11285528/97112351-cda38400-16b1-11eb-994b-cf98d4d424e0.PNG)
 
 Rendimiento para un arreglo de 10 elementos
