@@ -2,8 +2,8 @@
 
 pyhton version: 3.9.0
 
-Para ejecutar:
-```python
+**Para ejecutar:**
+```
 $ python merge-sort.py
 ```
 
