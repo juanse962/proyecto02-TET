@@ -1,7 +1,8 @@
-# proyecto02-TET
+# Proyecto02-TET
 
 pyhton version: 3.9.0
 
+Para ejecutar:
 ```python
 $ python merge-sort.py
 ```
@@ -11,3 +12,6 @@ Rednimiento para un arreglo con 5000 elementos
 
 Rendimiento para un arreglo de 10 elementos
 ![Captura](https://user-images.githubusercontent.com/11285528/97112561-f5471c00-16b2-11eb-9a40-16261e318a62.PNG)
+
+**Conclusión**
+Podemos observar que algoritmo más eficiente depende es del numero de elementos que se deseen ordenar y no existe uno que sea mejor que otro en todo los casos
