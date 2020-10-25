@@ -91,7 +91,7 @@ def mergesort(lyst):
 
 
 def mergeSortParallel(lyst, conn, procNum):
-    """mergSortParallel recive una lista conectado por la pipe de arriba."""
+    """mergSortParallel recive una lista conectado por la pipe de arriba. recursividad"""
 
     #Caso base, aquí mostramos un problema pequeño
     if procNum <= 0 or len(lyst) <= 1:
