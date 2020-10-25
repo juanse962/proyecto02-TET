@@ -16,6 +16,8 @@ Rendimiento para un arreglo de 10 elementos
 **Sustentación**
 *José Miguel*
 https://drive.google.com/file/d/1H9RmmdhPFvhWhlQZKFLJXfEyeqi9NMeo/view?usp=sharing
+*Juan Sebastián Gómez*
+https://www.youtube.com/watch?v=amtgA4gDmsc
 
 **Conclusión**
 Podemos observar que algoritmo más eficiente depende es del numero de elementos que se deseen ordenar y no existe uno que sea mejor que otro en todo los casos
