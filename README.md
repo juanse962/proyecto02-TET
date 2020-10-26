@@ -14,10 +14,13 @@ Rendimiento para un arreglo de 10 elementos
 ![Captura](https://user-images.githubusercontent.com/11285528/97112561-f5471c00-16b2-11eb-9a40-16261e318a62.PNG)
 
 **Sustentación**
-*José Miguel*
+*Juan Camilo Naranjo* - Introducción/Contextualización
+https://drive.google.com/file/d/1O29Hy5M6uV19LAR__HeR9oZ_ajJxvLiL/view?usp=sharing
+
+*José Miguel* - Explicación a fondo algoritmo en paralelo
 https://drive.google.com/file/d/1H9RmmdhPFvhWhlQZKFLJXfEyeqi9NMeo/view?usp=sharing
 
-*Juan Sebastián Gómez*
+*Juan Sebastián Gómez* - Explicación a fondo algoritmo secuencial
 https://www.youtube.com/watch?v=amtgA4gDmsc
 
 **Conclusión**
