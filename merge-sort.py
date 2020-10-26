@@ -1,3 +1,4 @@
+#Librerias
 from multiprocessing import Process, Pipe
 import time, random, sys
 
@@ -53,14 +54,12 @@ def main():
 
     print('Parallel mergesort: %f sec' % (elapsed))
 
-
     time.sleep(3)
     
     lyst = list(lystbck)
     start = time.time()
     lyst = sorted(lyst)
     elapsed = time.time() - start
-
 
 def merge(left, right):
     """realiza el ordenado"""
@@ -88,7 +87,6 @@ def mergesort(lyst):
         return lyst
     ind = len(lyst)//2
     return merge(mergesort(lyst[:ind]), mergesort(lyst[ind:]))
-
 
 def mergeSortParallel(lyst, conn, procNum):
     """mergSortParallel recive una lista conectado por la pipe de arriba. recursividad"""
